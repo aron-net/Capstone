@@ -28,7 +28,7 @@ Step 2: Copy All Project files and run using VSCODE. HTML can be viewed in brows
 
 ## Live Demo
 
-[Live  Demo Link](https://aron-helu.github.io/mobile-version//)
+[Live  Demo Link]()
 
 ## Authors
 
@@ -61,6 +61,6 @@ This project is [MIT](./MIT.md) licensed.
 
 ## Design
 
--Original design idea by Cindy Shin in Behance.
+- Original design idea by Cindy Shin in Behance.
 
--[Cindy Shin](https://www.behance.net/adagio07)
+- [Cindy Shin](https://www.behance.net/adagio07)
