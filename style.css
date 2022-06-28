@@ -11,6 +11,7 @@
   margin: 0;
   background-image: url('./Image/background-image/mobile_intro_bg.png');
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -18,7 +19,7 @@
   display: block;
   cursor: pointer;
   width: 35%;
-  padding-left: 45px;
+  padding-left: 20px;
   padding-top: 20px;
 }
 
@@ -41,14 +42,13 @@
 .support-text {
   font-family: 'Lato', sans-serif;
   color: #ec5242;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 1.4em;
+  font-weight: 600;
   line-height: 20px;
-  width: 65%;
 }
 
 .header-text {
-  background: linear-gradient(#ec5242, #87362d, #e9220c, #ec5242);
+  background: linear-gradient(#c4574e, #ee6e2e, #ec5242, #ec5242);
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -95,10 +95,26 @@
 
 .main-program {
   background-image: url('./Image/background-image/pattern_bg.png');
-  background-size: cover;
   background-color: #303134;
   margin-top: 1px;
-  height: 100vh;
+}
+
+.main-title {
+  color: #d3d3d3;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+hr.line-1 {
+  width: 30px;
+  margin: auto;
+  border: 1px solid #ec5242;
 }
 
 .main-program-list {
@@ -113,31 +129,41 @@ li {
 }
 
 .program-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 15% 30% 55%;
+  grid-template-rows: 1fr;
   align-items: center;
   background-color: rgba(85, 87, 91, 0.5);
   border: 2px solid #272a31;
-  padding: 20px 10px;
+  padding: 0 5px;
 }
 
 .program-header {
   color: #ec5242;
   font-size: 20px;
-  padding-left: 15px;
+  padding-left: 20px;
 }
 
 .program-text {
   color: whitesmoke;
-  width: 98%;
-  padding: 5px 15px;
+  padding: 10px 8px;
+  border: 2px solid red;
+  width: 100%;
 }
 
 .join {
+  background-image: url('./Image/background-image/pattern_bg.png');
+  background-color: #303134;
+  margin: 0;
+  padding: 5%;
+  margin-bottom: 4%;
+}
+
+.join-header {
   background-color: #ec5242;
-  padding: 20px;
-  margin: 10px 20px;
+  padding: 25px;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   color: white;
 }
