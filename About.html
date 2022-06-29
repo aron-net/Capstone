@@ -4,38 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="./Aout.css">
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
     <title>Conference for Pair programming</title>
 </head>
 <body>
-    <div class="about">
-        <header class="header">
-            <nav class="navigation">
-                <div class="hamburger-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </nav>
-        </header>
-        <section class="container-about ">
-            <div class="header-container-about">
-                <h1 class="header-text-about">CREATIVE COMMONS PAIR PROGRAMMING 2022</h1>
-                <h2 class="support-text about-text">&quot;Hello! Sharing world&quot;</h2>
-            </div>
-            <div class="text-container">
-                <p class="about-text-content">The Pair Programming brings together the community of
-                    experts, academics, and activists who comprise the Creative commons affiliate 
-                    network in a different country every two years. This year, we hope to expand our
-                    invitation list including organizations and individuals.                 
-                </p>
-                <p class="contact-us">Please contact us per Email for any further questions about CC Global Pair Programming 2022!</p>
-                <p class="contact-email">ccsumit2022@ccusa.org</p>
-            </div>
-        </section>
+    <div class="logo-top">
+        <ul class="logo-list">
+            <li><i class="fa fa-facebook"></i></li>
+            <li><i class="fa fa-twitter"></i></li>
+            <li><a class="top-list" href="#" >English</a></li>
+            <li><a class="top-list" href="#">My Page</a></li>
+            <li><a class="top-list" href="#">Logout</a></li>
+        </ul>
     </div>
-    <main class="main-about">
+    <header id="header">
+        <nav class="navigation">
+            <ul data-visible="false" class="item-navigation">
+                <li class="item-logo">
+                    <img class="logo-nav" src="./Image/background-image/cc-global.png" alt="cc-log" >
+                    <span class="logo-text">CC 2022 <br> Pair Programming</span>
+                    <span class="material-symbols-outlined close-menu">close</span>
+                </li>
+                <li class="link-navigation">
+                    <a class="link-nav" href="./Home.html">Home</a>
+                    <a class="link-nav" href="./About.html">About</a>
+                </li>
+            </ul>
+            <div class="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div> 
+        </nav>
+    </header>
+    <main class="container-about ">
+        <div class="header-container-about">
+            <h1 class="header-text-about">CREATIVE COMMONS PAIR PROGRAMMING 2022</h1>
+            <h2 class="support-text about-text">&quot;Hello! Sharing world&quot;</h2>
+        </div>
+        <div class="text-container">
+            <p class="about-text-content">The Pair Programming brings together the community of
+                experts, academics, and activists who comprise the Creative commons affiliate 
+                network in a different country every two years. This year, we hope to expand our
+                invitation list including organizations and individuals.                 
+            </p>
+            <p class="contact-us">Please contact us per Email for any further questions about CC Global Pair Programming 2022!</p>
+            <p class="contact-email">ccsumit2022@ccusa.org</p>
+        </div>
+    </main>
+    <section class="main-about">
         <h2 class="main-testimonial">Testimonial</h2>
         <h5 class="main-text">“I believe that the best programs and designs are done by pairs, 
             because you can criticise each other, and find each other's errors, and use the best ideas,”  
@@ -43,11 +64,12 @@
         </h5>
         <div class="logo-img">
             <ul class="logo-mirror">
-                <li class="image"><img class="cc-global" src="./Image/background-image/cc-global.png" alt="cc-global"></li>
-                <li class="logo-text">
-                    <h2 class="cc-header">CC Global</h2>
-                    <h3 class="cc-text">Pair Programming 2022</h3>
-                    <p class="cc-date">23th ~ 24th July 2022/Silicon Valley</p>
+                <li class="image">
+                    <img class="cc-global" src="./Image/background-image/cc-global.png" alt="cc-global">
+                    <h2 class="cc-header">CC Global
+                        <span class="cc-text">Pair Programming 2022</span>
+                        <span class="cc-date">23th ~ 24th July 2022/Silicon Valley</span>
+                    </h2>
                 </li>
             </ul>
         </div>
@@ -70,7 +92,7 @@
                 </div>
             </div>
         </div>
-    </main>
+    </section>
     <footer>
         <div class="partner">
             <h2 class="partner-header">Partner</h2>

@@ -7,14 +7,12 @@
   width: 100%;
 }
 
-.about {
-  background-color: whitesmoke;
-}
-
 .container-about {
+  background-color: whitesmoke;
   background-image: url('./Image/background-image/about_bg_01.png');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
   margin: 0 auto;
 }
@@ -85,6 +83,7 @@
 .logo-img {
   background-image: url('./Image/background-image/1_Eh7qZU6ruhSoe2Le_AXiVw.png');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   height: 25vh;
   margin-top: 15px;
@@ -99,16 +98,18 @@
 }
 
 .image {
-  margin-top: 5px;
+  margin: auto;
   padding: 10px;
-  width: 45%;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
 }
 
 .cc-global {
-  width: 95%;
+  width: 15%;
 }
 
-.logo-text {
+.cc-header {
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   line-height: 28px;
@@ -144,6 +145,7 @@
   background-image: url('./Image/image/pair_programming.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .past-image-mirror {
@@ -174,11 +176,11 @@
 }
 
 footer {
-  outline: 2px solid green;
   text-align: center;
 }
 
 .partner {
+  display: block;
   background-color: #2f3135;
 }
 
@@ -244,4 +246,134 @@ footer {
 
 .right-reserved {
   padding: 10px 25px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container-about {
+    width: 100%;
+    margin: auto;
+    background-size: cover;
+  }
+
+  .about-text {
+    display: none;
+  }
+
+  .logo-list {
+    width: 58%;
+  }
+
+  .logo-text {
+    color: #100f0f;
+  }
+
+  .header-container-about {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .header-text-about {
+    font-size: 52px;
+    padding: 10px;
+  }
+
+  .text-container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .about-text-content {
+    padding: 60px;
+  }
+
+  .contact-us {
+    padding: 30px 10px;
+  }
+
+  .contact-email {
+    padding: 15px 10px;
+    line-height: 24px;
+    text-decoration-line: underline;
+  }
+
+  .main-about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .main-testimonial {
+    font-size: 52px;
+  }
+
+  .main-text {
+    width: 42%;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .logo-img {
+    width: 70%;
+    margin: auto;
+    height: 50vh;
+  }
+
+  .logo-mirror {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .image {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cc-global {
+    margin: auto;
+    width: 20%;
+  }
+
+  .cc-header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .past-header {
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  .past-image-container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    height: 30vh;
+  }
+
+  .past-image-mirror {
+    height: 30vh;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  .footer-logo {
+    background-color: #060606;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    color: #d3d3d3;
+  }
+
+  .cc-icon {
+    display: none;
+  }
 }

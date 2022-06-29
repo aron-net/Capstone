@@ -45,8 +45,8 @@ const loadSpeakers = () => {
     const card = `<div class="speakers-grid">
         <div class="speakers-clo">
             <div class="speaker-container">
-                <div class="speaker-img">
-                    <img class="img-${speakersIndex + 1}" src="./Image/Speakers/${speakers[speakersIndex].img}" alt="speakers-image"></img>
+                <div >
+                    <img class="speaker-img" class="img-${speakersIndex + 1}" src="./Image/Speakers/${speakers[speakersIndex].img}" alt="speakers-image"></img>
                 </div>
                 <div class="speaker-content">
                     <h2 class="speaker-header">${speakers[speakersIndex].name}</h2>
