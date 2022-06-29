@@ -241,6 +241,10 @@ li {
   margin-bottom: 4%;
 }
 
+.join-desktop {
+  display: none;
+}
+
 .join-header {
   background-color: #ec5242;
   padding: 25px;
