@@ -44,7 +44,7 @@ const loadSpeakers = () => {
   for (let speakersIndex = 0; speakersIndex < speakers.length; speakersIndex += 1) {
     const card = `<div class="speakers-grid">
         <div class="speakers-clo">
-            <div class="speaker-container">
+            <article class="speaker-container">
                 <div >
                     <img class="speaker-img" class="img-${speakersIndex + 1}" src="./Image/Speakers/${speakers[speakersIndex].img}" alt="speakers-image"></img>
                 </div>
@@ -53,7 +53,7 @@ const loadSpeakers = () => {
                     <p class="speaker-profession">${speakers[speakersIndex].profession}</p>
                     <p class="speaker-description">${speakers[speakersIndex].description}</p>
                 </div>
-            </div>
+            </article>
         </div>
         </div>`;
     cardSpeakers += card;
