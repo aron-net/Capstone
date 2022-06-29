@@ -147,7 +147,6 @@ li {
 .program-text {
   color: whitesmoke;
   padding: 10px 8px;
-  border: 2px solid red;
   width: 100%;
 }
 
@@ -166,4 +165,61 @@ li {
   font-family: 'Lato', sans-serif;
   font-size: 15px;
   color: white;
+}
+
+.speaker-container {
+  display: flex;
+}
+
+.speaker-img {
+  width: 50%;
+  padding: 8px;
+}
+
+.speaker-content {
+  width: 70%;
+}
+
+.speaker-header {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 5px;
+  color: #575757;
+}
+
+.speaker-profession {
+  color: #ec5242;
+  font-size: 18px;
+  font-family: 'lato', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  padding: 3px 1px;
+}
+
+.speaker-description {
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.more-footer {
+  border: 1px solid rgb(183, 181, 181);
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  gap: 20px;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.more-p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 20px;
 }
