@@ -1,0 +1,379 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container-about {
+  background-color: whitesmoke;
+  background-image: url('./Image/background-image/about_bg_01.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header-text-about {
+  color: #ec5242;
+  font-size: 28px;
+  font-weight: 500;
+  margin: auto;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.about-text-content {
+  background-color: white;
+  padding: 20px 15px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #494545;
+  font-family: 'Lato', sans-serif;
+}
+
+.hamburger-menu {
+  opacity: 1;
+}
+
+.header-container-about {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0 12px;
+}
+
+.main-about {
+  text-align: center;
+  margin: 0 auto;
+  width: 97%;
+  padding: 15px 20px;
+}
+
+.main-testimonial {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #787171;
+}
+
+.contact-us {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 15px;
+  line-height: 25px;
+  font-family: 'Lato', sans-serif;
+}
+
+.main-text {
+  background-color: whitesmoke;
+  padding: 20px 10px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  color: #211f1f;
+}
+
+.text-parg {
+  padding: 5px 10px;
+  color: #100f0f;
+}
+
+.logo-img {
+  background-image: url('./Image/background-image/1_Eh7qZU6ruhSoe2Le_AXiVw.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25vh;
+  margin-top: 15px;
+}
+
+.logo-mirror {
+  background-color: rgba(248, 25, 9, 0.4);
+  height: 25vh;
+  color: rgb(252, 253, 255);
+  display: flex;
+  padding: 10px 2px;
+}
+
+.image {
+  margin: auto;
+  padding: 10px;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+}
+
+.cc-global {
+  width: 15%;
+}
+
+.cc-header {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  line-height: 28px;
+  font-size: 15px;
+  padding-top: 22px;
+}
+
+.see-past {
+  padding: 20px 5px;
+  width: 100%;
+}
+
+.past-header {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px 1px;
+  color: #373535;
+}
+
+.past-text {
+  padding: 10px 5px;
+}
+
+.past-image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.past-image {
+  background-image: url('./Image/image/pair_programming.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.past-image-mirror {
+  background-color: rgba(240, 81, 81, 0.6);
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.header-image {
+  color: #d3d3d3;
+}
+
+.text-image {
+  text-align: center;
+  color: #d3d3d3;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+}
+
+.past-image-2 {
+  background-image: url('./Image/image/software-engineer-black-t-shirt-sitting-conference-hall-programming-worshop-full-audience-learning-180145442.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  text-align: center;
+}
+
+.partner {
+  display: block;
+  background-color: #2f3135;
+}
+
+.partner-header {
+  color: #d3d3d3;
+  font-size: 24px;
+  padding: 10px 0;
+}
+
+.partner-image {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mozilla {
+  width: 25%;
+  padding: 10px 15px;
+  filter: contrast(50%);
+  -webkit-filter: contrast(50%);
+}
+
+.google {
+  width: 35%;
+  padding: 10px 15px;
+  filter: grayscale(90%);
+  -webkit-filter: grayscale(100%);
+}
+
+.microverse {
+  width: 30%;
+  padding: 10px 15px;
+  filter: grayscale(90%);
+  -webkit-filter: grayscale(100%);
+}
+
+.spotify {
+  width: 45%;
+  padding: 15px 35px;
+  filter: grayscale(90%);
+  -webkit-filter: grayscale(100%);
+}
+
+.lumen {
+  width: 45%;
+  padding: 10px 15px;
+  filter: grayscale(90%);
+  -webkit-filter: grayscale(100%);
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-icon {
+  display: flex;
+}
+
+.cc-icon {
+  width: 35%;
+  padding: 0 20px;
+}
+
+.right-reserved {
+  padding: 10px 25px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container-about {
+    width: 100%;
+    margin: auto;
+    background-size: cover;
+  }
+
+  .about-text {
+    display: none;
+  }
+
+  .logo-list {
+    width: 58%;
+  }
+
+  .logo-text {
+    color: #100f0f;
+  }
+
+  .header-container-about {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .header-text-about {
+    font-size: 52px;
+    padding: 10px;
+  }
+
+  .text-container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .about-text-content {
+    padding: 60px;
+  }
+
+  .contact-us {
+    padding: 30px 10px;
+  }
+
+  .contact-email {
+    padding: 15px 10px;
+    line-height: 24px;
+    text-decoration-line: underline;
+  }
+
+  .main-about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .main-testimonial {
+    font-size: 52px;
+  }
+
+  .main-text {
+    width: 42%;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .logo-img {
+    width: 70%;
+    margin: auto;
+    height: 50vh;
+  }
+
+  .logo-mirror {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .image {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cc-global {
+    margin: auto;
+    width: 20%;
+  }
+
+  .cc-header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .past-header {
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  .past-image-container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    height: 30vh;
+  }
+
+  .past-image-mirror {
+    height: 30vh;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  .footer-logo {
+    background-color: #060606;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    color: #d3d3d3;
+  }
+
+  .cc-icon {
+    display: none;
+  }
+}
