@@ -30,6 +30,16 @@ Step 2: Copy All Project files and run using VSCODE. HTML can be viewed in brows
 
 [Live  Demo Link](https://aron-helu.github.io/Capstone/)
 
+
+## Quick view
+
+<img src="./Screenshot from 2022-09-06 08-58-54(1).jpg" alt="quick-view-img">
+
+<img src="./Screenshot from 2022-09-06 08-59-05.jpg" alt="quick-view-img">
+
+<img src="./Screenshot from 2022-09-06 09-00-38.jpg" alt="quick-view-img">
+
+
 ## Authors
 
 👤 **Aaron Abraham**
